@@ -1,5 +1,5 @@
-pkgbase = openocd-git
-	pkgdesc = Debugging, in-system programming and boundary-scan testing for embedded target devices (git version)
+pkgbase = openocd-ht32
+	pkgdesc = openocd-git with HT32F165x support
 	pkgver = 0.10.0.r1089.g3bfe49266
 	pkgrel = 1
 	url = http://openocd.org
@@ -25,5 +25,5 @@ pkgbase = openocd-git
 	md5sums = SKIP
 	sha1sums = SKIP
 
-pkgname = openocd-git
+pkgname = openocd-ht32
 

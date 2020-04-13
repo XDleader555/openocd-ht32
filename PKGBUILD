@@ -8,10 +8,10 @@
 # Contributor: Samuel Tardieu <sam@rfc1149.net>
 
 _pkgbase=openocd
-pkgname=openocd-git
+pkgname=openocd-ht32
 pkgver=0.10.0.r1177.gb9a30e089
 pkgrel=1
-pkgdesc="Debugging, in-system programming and boundary-scan testing for embedded target devices (git version)"
+pkgdesc="openocd-git with HT32F165x support"
 arch=('i686' 'x86_64' 'arm' 'aarch64')
 url="http://openocd.org"
 license=('GPL')
