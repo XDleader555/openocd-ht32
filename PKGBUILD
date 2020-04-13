@@ -9,7 +9,7 @@
 
 _pkgbase=openocd
 pkgname=openocd-git
-pkgver=0.10.0.r1089.g3bfe49266
+pkgver=0.10.0.r1177.gb9a30e089
 pkgrel=1
 pkgdesc="Debugging, in-system programming and boundary-scan testing for embedded target devices (git version)"
 arch=('i686' 'x86_64' 'arm' 'aarch64')
@@ -81,6 +81,8 @@ prepare() {
 
 build() {
   cd "$srcdir/${pkgname}"
+  git remote add ht32 https://github.com/XDleader555/openocd-ht32.git
+  git pull ht32 master --rebase
 
   ./bootstrap
   ./configure --prefix=/usr \
